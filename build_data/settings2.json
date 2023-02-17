@@ -1,0 +1,161 @@
+{
+ "version": "auto-py-to-exe-configuration_v1",
+ "pyinstallerOptions": [
+  {
+   "optionDest": "noconfirm",
+   "value": true
+  },
+  {
+   "optionDest": "filenames",
+   "value": "C:/Users/8051/Desktop/WAM5500 App/Main code.py"
+  },
+  {
+   "optionDest": "onefile",
+   "value": false
+  },
+  {
+   "optionDest": "console",
+   "value": true
+  },
+  {
+   "optionDest": "name",
+   "value": "BADEL Sim"
+  },
+  {
+   "optionDest": "ascii",
+   "value": false
+  },
+  {
+   "optionDest": "clean_build",
+   "value": true
+  },
+  {
+   "optionDest": "strip",
+   "value": false
+  },
+  {
+   "optionDest": "noupx",
+   "value": false
+  },
+  {
+   "optionDest": "disable_windowed_traceback",
+   "value": false
+  },
+  {
+   "optionDest": "embed_manifest",
+   "value": true
+  },
+  {
+   "optionDest": "uac_admin",
+   "value": false
+  },
+  {
+   "optionDest": "uac_uiaccess",
+   "value": false
+  },
+  {
+   "optionDest": "win_private_assemblies",
+   "value": false
+  },
+  {
+   "optionDest": "win_no_prefer_redirects",
+   "value": false
+  },
+  {
+   "optionDest": "bootloader_ignore_signals",
+   "value": false
+  },
+  {
+   "optionDest": "argv_emulation",
+   "value": false
+  },
+  {
+   "optionDest": "datas",
+   "value": "C:/Users/8051/PycharmProjects/pythonProject/venv/Lib/site-packages/matplotlib;matplotlib/"
+  },
+  {
+   "optionDest": "datas",
+   "value": "C:/Users/8051/PycharmProjects/pythonProject/venv/Lib/site-packages/customtkinter;customtkinter/"
+  },
+  {
+   "optionDest": "datas",
+   "value": "C:/Users/8051/PycharmProjects/pythonProject/venv/Lib/site-packages/darkdetect;darkdetect/"
+  },
+  {
+   "optionDest": "datas",
+   "value": "C:/Users/8051/PycharmProjects/pythonProject/venv/Lib/site-packages/numpy;numpy/"
+  },
+  {
+   "optionDest": "datas",
+   "value": "C:/Users/8051/PycharmProjects/pythonProject/venv/Lib/site-packages/packaging;packaging/"
+  },
+  {
+   "optionDest": "datas",
+   "value": "C:/Users/8051/PycharmProjects/pythonProject/venv/Lib/site-packages/PIL;PIL/"
+  },
+  {
+   "optionDest": "datas",
+   "value": "C:/Users/8051/PycharmProjects/pythonProject/venv/Lib/site-packages/contourpy;contourpy/"
+  },
+  {
+   "optionDest": "datas",
+   "value": "C:/Users/8051/PycharmProjects/pythonProject/venv/Lib/site-packages/fontTools;fontTools/"
+  },
+  {
+   "optionDest": "datas",
+   "value": "C:/Users/8051/PycharmProjects/pythonProject/venv/Lib/site-packages/kiwisolver;kiwisolver/"
+  },
+  {
+   "optionDest": "datas",
+   "value": "C:/Users/8051/PycharmProjects/pythonProject/venv/Lib/site-packages/pyparsing;pyparsing/"
+  },
+  {
+   "optionDest": "datas",
+   "value": "C:/Users/8051/PycharmProjects/pythonProject/venv/Lib/site-packages/cycler.py;."
+  },
+  {
+   "optionDest": "datas",
+   "value": "C:/Users/8051/AppData/Roaming/Python/Python310/site-packages/six.py;."
+  },
+  {
+   "optionDest": "datas",
+   "value": "C:/Users/8051/AppData/Roaming/Python/Python310/site-packages/dateutil;dateutil/"
+  },
+  {
+   "optionDest": "datas",
+   "value": "C:/Users/8051/AppData/Local/Programs/Python/Python310/Lib/uuid.py;."
+  },
+  {
+   "optionDest": "datas",
+   "value": "C:/Users/8051/AppData/Local/Programs/Python/Python310/Lib/enum.py;."
+  },
+  {
+   "optionDest": "datas",
+   "value": "C:/Users/8051/PycharmProjects/pythonProject/venv/Lib/site-packages/mpl_toolkits;mpl_toolkits/"
+  },
+  {
+   "optionDest": "collect_all",
+   "value": "customtkinter"
+  },
+  {
+   "optionDest": "datas",
+   "value": "C:/Users/8051/PycharmProjects/pythonProject/venv/Lib/site-packages/serial;serial/"
+  },
+  {
+   "optionDest": "collect_all",
+   "value": "numpy"
+  },
+  {
+   "optionDest": "collect_all",
+   "value": "matplotlib"
+  },
+  {
+   "optionDest": "collect_all",
+   "value": "serial"
+  }
+ ],
+ "nonPyinstallerOptions": {
+  "increaseRecursionLimit": true,
+  "manualArguments": ""
+ }
+}
