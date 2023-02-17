@@ -119,10 +119,13 @@ def popup():
 
 
 # directory function
+directory = 0
 def directoption():
+    global directory
     directory = tk.filedialog.askopenfilename(title='Open a file', filetypes=[('csv files', '*.csv')])
     print(directory)
     label.configure(text=directory)
+    return directory
 
 
 # label for directory for graph
@@ -169,11 +172,11 @@ def measure():
 
 
 # name and save into a file function
-open_csv = 0
+
 
 
 def writefile(measurements):
-    global open_csv
+   
     ser.write(b'E\r\n')
     open_csv = tkinter.filedialog.asksaveasfilename(defaultextension='.csv', filetypes=[('csv files', '*.csv')])
     with open(open_csv, mode='w', newline='') as wam_file:
@@ -183,12 +186,12 @@ def writefile(measurements):
             file_writer.writerow(measurement)
     if not open_csv:
         print("Nothing left to do")
-    return open_csv
+   
 
 
 # graph function
 def a_file():
-    global open_csv
+    global directory
     x = []
     y = []
     with open(open_csv, 'r') as csvfile:
@@ -203,7 +206,7 @@ def a_file():
     plt.grid()
     plt.legend()
     plt.show()
-    return open_csv
+    return directory
 
 
 # connect button
