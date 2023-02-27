@@ -117,15 +117,13 @@ def popup():
         button2.configure(state="disabled")
 
 
-
-# directory function
 directory = 0
+# directory function
 def directoption():
     global directory
     directory = tk.filedialog.askopenfilename(title='Open a file', filetypes=[('csv files', '*.csv')])
     print(directory)
-    label.configure(text=directory)
-    return directory
+    label.configure(text=directory,font=("Calibri",8))
 
 
 # label for directory for graph
@@ -176,7 +174,7 @@ def measure():
 
 
 def writefile(measurements):
-   
+
     ser.write(b'E\r\n')
     open_csv = tkinter.filedialog.asksaveasfilename(defaultextension='.csv', filetypes=[('csv files', '*.csv')])
     with open(open_csv, mode='w', newline='') as wam_file:
@@ -186,7 +184,7 @@ def writefile(measurements):
             file_writer.writerow(measurement)
     if not open_csv:
         print("Nothing left to do")
-   
+    return open_csv
 
 
 # graph function
@@ -194,7 +192,8 @@ def a_file():
     global directory
     x = []
     y = []
-    with open(open_csv, 'r') as csvfile:
+    directoption()
+    with open(directory, 'r') as csvfile:
         plots = csv.reader(csvfile, delimiter=',')
         for row in plots:
             x.append(row[0])
